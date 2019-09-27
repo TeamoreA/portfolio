@@ -1,10 +1,12 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Timothy Kamau",
-    "role": "Fullstack web developer",
+    "role": "Software Engineer",
     "linkedinId":"https://www.linkedin.com/in/timothy-kamau/",
     "skypeid": "Your skypeid",
-    "roleDescription": "Backend APIs developer majorly, but also I have a great interest on frontend development and design",
+    "phone":"+254714081039",
+    "email":"teamorethestar@gmail.com",
+    "roleDescription": "Backend engineer and also pursuing Data science",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +24,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"Currently, I am a student at Kenyatta University who has worked with an International Company, Andela, for a period of one year. I am a self-taught and enthusiatic Engineer and each day I strive to learn something new.",
+    "aboutme":"I an experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python (Django and Flask), Vue.Js, and Public Speaking. Other technologies include GraphQL, Postgress and MySQL. Strong engineering professional with a Bachelor's degree focused in Computer Science from Kenyatta University. ",
     "address":"Kenya",
     "website":"Email: teamorethestar@gmail.com",
     "education":[
@@ -61,29 +63,61 @@ let resumeData = {
         "skillname":"Postgres"
       },
       {
-        "skillname":"Angular"
+        "skillname":"Vue"
+      },
+      {
+        "skillname":"Circle CI"
+      },
+      {
+        "skillname":"Git"
+      },
+      {
+        "skillname":"MongoDB"
+      },
+      {
+        "skillname":"Firebase"
+      },
+      {
+        "skillname":"Heroku"
       }
     ],
     "portfolio":[
       {
-        "name":"Coverge",
+        "name":"Converge",
         "description":"Room mangement app",
-        "imgurl":"images/portfolio/console.jpg"
+        "imgurl":"images/portfolio/converge.png",
+        "about":"This is a room management app whose aim was to ensure that there was a coordinated format of booking meeting rooms in the company",
+        "project_url": "https://github.com/TeamoreA/mrm_api"
+
+      },
+      {
+        "name":"Quexl",
+        "description":"Automated service delivery app",
+        "imgurl":"images/portfolio/quexl.png",
+        "about":"This is an automated service delivery app that allows 3rd party api's to intergrate and provide services",
+        "project_url": "https://github.com/verenceLola/Quexl"
+
       },
       {
         "name":"Megg",
         "description":"A social hybrid app",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/megg.jpg",
+        "about":"This is a hybrid application that enables users to post articles, it also provides users with a chatting platform. Not completed yet",
+        "project_url":"https://github.com/TeamoreA/megg-backend"
       },
       {
         "name":"Author's Haven",
         "description":"An article publishing website",  
-        "imgurl":"images/portfolio/girl.jpg"
+        "imgurl":"images/portfolio/ah.jpeg",
+        "about":"This is an article publishig aplication",
+        "project_url":"https://github.com/TeamoreA/ah-technocrats"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/into-the-light.jpg"
+        "name":"Portfolio",
+        "description":"Personal Website",  
+        "imgurl":"images/portfolio/portfolio.jpg",
+        "about":"This is a customized react app template that provides all the my personal information",
+        "project_url":"https://teamorea.github.io/portfolio/"
       }
     ],
     "testimonials":[
