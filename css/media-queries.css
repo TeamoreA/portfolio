@@ -122,8 +122,8 @@
       color: transparent;
 
       position: relative;
-      top: 0px;
-      right: 30px;
+      top: 10px;
+      right: 20px;
    }
 
 	#nav-wrap > a:before,
