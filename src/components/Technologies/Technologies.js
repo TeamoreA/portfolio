@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiPython } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -13,9 +13,9 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiPython size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             I did alof of stugff here
           </ListParagraph>
@@ -24,7 +24,7 @@ const Technologies = () =>  (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Backend-End</ListTitle>
+          <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             I did alof of stugff here
           </ListParagraph>
@@ -33,7 +33,7 @@ const Technologies = () =>  (
       <ListItem>
         <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>Data Engineering</ListTitle>
+          <ListTitle>Full-Stack</ListTitle>
           <ListParagraph>
             I did alof of stugff here
           </ListParagraph>
